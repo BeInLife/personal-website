@@ -73,8 +73,9 @@ function App() {
             </div>
             <div className="pt-10 pb-24">
                 <CardsRow title="Reach me out">
-                    <Card title="Github" subtitle="@beinlife" link="https://github.com/beinlife" />
-                    <Card title="Telegram" subtitle="@beinlife" link="https://t.me/beinlife" />
+                    <Card title="Github" subtitle="Some code examples" link="https://github.com/beinlife" />
+                    <Card title="Email" subtitle="Checking once a day" link="mailto:evgprogger+jobs@gmail.com" />
+                    <Card title="LinkedIn" subtitle="Full career info" link="https://www.linkedin.com/in/ekorchagin" />
                 </CardsRow>
             </div>
         </div>
