@@ -41,7 +41,7 @@ function App() {
                     <Card
                         title="Arrival LTD"
                         subtitle="Frontend developer"
-                        misc="March, 2019 – Dec, 2020"
+                        misc="Mar, 2019 – Dec, 2020"
                         tags={['React', 'Typescript', 'Unit Testing']}
                         link="https://arrival.com"
                     />
