@@ -16,8 +16,8 @@ function App() {
                         <br /> I'm Eugene
                     </h1>
                     <p className="text-gray-500 mt-4">
-                        I’m a frontend developer at <Link text="Arrival" href="https://arrival.com" />. Most of the time
-                        work with React, but had some experience with Angular. Result oriented.
+                        I’m a frontend developer at <Link text="Squire Inc" href="https://getsquire.com" />. Most of the
+                        time work with React, but had some experience with Angular. Result oriented.
                     </p>
                     <p className="text-gray-500 mt-4">Fan of learning new languages.</p>
                     <p className="text-gray-500 mt-4">
@@ -32,9 +32,16 @@ function App() {
             <div className="mt-10">
                 <CardsRow title="Experience">
                     <Card
+                        title="Squire Inc"
+                        subtitle="Web engineer"
+                        misc="from January, 2021"
+                        tags={['React', 'Typescript']}
+                        link="https://getsquire.com"
+                    />
+                    <Card
                         title="Arrival LTD"
                         subtitle="Frontend developer"
-                        misc="from March, 2019"
+                        misc="March, 2019 – Dec, 2020"
                         tags={['React', 'Typescript', 'Unit Testing']}
                         link="https://arrival.com"
                     />
@@ -65,7 +72,7 @@ function App() {
                     <Card
                         title="Achieved"
                         subtitle="Developer"
-                        misc="from September, 2019"
+                        misc="from September, 2019. Closed"
                         tags={['React', 'Typescript', 'Fullstack']}
                         link="https://getachieved.com"
                     />
